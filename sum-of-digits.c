@@ -29,3 +29,4 @@ int main()
     printf("\n Total : %d",sum);
 
 }
+
