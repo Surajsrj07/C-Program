@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a = 10;   integer type
+    char b = '$';  char type 
+    float c = 122.58852f;  float type ,where f is a literal.
+    long int d = 124589;
+    float e =255e-2f;
+    int f = 0x41;
+    printf("%d \n %c \n %0.2f \n %ld \n %0.2f \n %d", a, b,c,d,e,f); 
+    return 0;
+}
+
+a ,b ,c ,d ,e , f all are variables which can store values.
