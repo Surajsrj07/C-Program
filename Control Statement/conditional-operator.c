@@ -1,4 +1,5 @@
 //conditional statement ?:
+//find the greatest of two numbers 
 
 
 #include<stdio.h>
