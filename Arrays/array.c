@@ -1,4 +1,4 @@
-
+//One dimensional Array
 
 #include<stdio.h>
 
