@@ -1,34 +1,38 @@
-//Malloc pointer
+//Malloc pointer  or Memory loaction
+
 
 #include<stdio.h>
+#include<stdlib.h>
 
 int main()
 {
-    //void * malloc(size_t size)
-    int i,n;
-    printf("\nEnter the Limit : ");
-    scanf("%d",&n);
+   int i,n;
+   printf("\n Enter the Limits : ");
+   scanf("%d",&n);
+      //void * malloc(size_of size)  
+      //type conversion
 
-    int *ptr= (int *)malloc(n *sizeof(int));
+   int *ptr =(int *)malloc(n *(sizeof(int)));
 
-     if(ptr ==NULL)
-     {
-        printf("\nMemory not available");
-        exit(1;)
-     }
+   if(ptr==NULL)
+   {
+      printf("Memory not available...");
+      exit(1);
+   }
 
-      for(i=0;i<n;i++)
-     {
-        printf("\n Enter an Integer : ");
-        scanf("%d",ptr+i);
-     }
+   for(i=0;i<n;i++)
+   {
+      printf("\nEnter the values : ");
+      scanf("%d",ptr+i);
+   }
 
+   for(i=0;i<n;i++)
+   {
+      printf("%d  ",*(ptr+i)); // ptr+1  dereferencing 
+   }  
 
-     for(i=0;i<n;i++)
-     {
-        printf("\n %d",*(ptr+i));  //ptr+1
-     }
-
-     return 0;
+   //garbage values : 11603264  11600064  100663302  18646  11612000 
+  
+return 0;
 
 }
