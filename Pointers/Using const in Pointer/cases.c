@@ -1,15 +1,11 @@
-
+//using const in char
 
 #include<stdio.h>
 #include<stdlib.h>
 
 int main()
 {
- 
-}
-
-
-/*case 1:
+ /*case 1:
   char a[3]={'a','b','c'};
     const char *p=a;
 
@@ -19,7 +15,7 @@ int main()
     printf("\n *p = %c",*p);*/
 
 
-/*case 2:
+//case 2:
  char a[3]={'a','b','c'};
   char const *p=a;
 
@@ -31,4 +27,7 @@ int main()
 
     return 0;
 
-*/
+
+}
+
+
