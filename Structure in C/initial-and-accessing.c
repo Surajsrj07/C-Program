@@ -1,8 +1,6 @@
 //Initialization and accessing the member structure in c
 
 
-//Structure in C
-
 #include<stdio.h>
 
 
