@@ -10,9 +10,13 @@ int main()
    printf("\n Enter the Limits : ");
    scanf("%d",&n);
       //void * malloc(size_of size)  
+         /*Example :
+             int *ptr = int* malloc ( 5 * size ( int ) )
+             int *ptr = int* malloc ( 5 * 4 )
+             int *ptr = int* malloc ( 20 )*/
       //type conversion
 
-   int *ptr =(int *)malloc(n *(sizeof(int)));
+   int *ptr =(int *)malloc(n *sizeof(int));
 
    if(ptr==NULL)
    {
@@ -22,7 +26,7 @@ int main()
 
    for(i=0;i<n;i++)
    {
-      printf("\nEnter the values : ");
+      printf("\nEnter the integer : ");
       scanf("%d",ptr+i);
    }
 
