@@ -20,6 +20,11 @@ int main()
   printf("\n %s",MSG);
 
   custom_message("Ram kumar");
+
+
+  printf("\nFile Name : %s",__FILE__);
+  printf("\nTime      : %s",__TIME__);
+  printf("\nLINE      : %d",__LINE__);
    
    return 0;
 }
