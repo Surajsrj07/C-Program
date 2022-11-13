@@ -10,6 +10,8 @@ enum bool a;
 a=Yes;
 enum bool b;
 b=y;
+
+
 printf("\n a : %d",a);
 printf("\n b : %d",b);
 
